@@ -1,0 +1,49 @@
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    position: relative;
+    top: 25%;
+}
+
+
+.container {
+
+    height: 100vh;
+}
+
+.frame {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nxtbtn {
+    margin-top: 10px;
+    background-color: cyan;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    position: relative;
+    left: 30%;
+}
+
+#nxtbtn img {
+    width: 10px;
+}
+
+.text-second {
+    width: 200px;
+}
